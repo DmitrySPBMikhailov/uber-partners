@@ -1,0 +1,26 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
+}
+
+.inverse {
+  background-color: #333;
+  color: white;
+}
+
+.info {
+  background: DarkGray;
+  color: #fff;
+}
+
+.alert {
+  background: DarkRed;
+  color: #fff;
+}
+
+.success {
+  background: DarkGreen;
+  color: #fff;
+}
+
+/*# sourceMappingURL=output.css.map */

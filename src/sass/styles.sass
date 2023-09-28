@@ -1,3 +1,13 @@
+@mixin bottom-style
+	margin: 0 auto
+	color: #222
+	text-align: center
+	font-family: Roboto
+	font-size: 17px
+	font-style: normal
+	font-weight: 300
+	bottom: 147px
+	
 * 
 	font-family: 'Roboto', sans-serif 
 header 
@@ -218,4 +228,56 @@ nav
 			background-color: #000
 			margin: 0 auto
 			border-radius: 100%
-			padding: 6px
+			cursor: pointer
+
+.choice
+	height: 899px
+	&_upper
+		height: 502px
+		background-color: #070716
+		padding-top: 59px
+		&_label_white
+			margin: 0 auto
+			text-align: center
+			width: 112px
+			height: 24px
+			padding: 5px 12px 
+			color: #070716
+			font-size: 11px
+			font-style: normal
+			font-weight: 400
+			text-transform: uppercase
+			background-color: #fff
+		&_title
+			padding-top: 27px
+			margin: 0 auto
+			color: #FFF
+			text-align: center
+			font-size: 38px
+			font-style: normal
+			font-weight: 700
+			text-transform: uppercase
+		&_subtitle
+			padding-top: 1px
+			margin: 0 auto
+			color: #FFF
+			text-align: center
+			font-family: Roboto
+			font-size: 17px
+			font-style: normal
+			font-weight: 400
+			line-height: 21px
+		&_car
+			padding-top: 54px
+			margin: 0 auto
+			width: 759px
+			height: 480px
+
+	&_bottom
+		height: 397px
+		background: url('../img/choice_layer.png') center center/cover no-repeat
+		&_text
+			@include bottom-style
+			padding-top: 209px
+		&_text2
+			@include bottom-style

@@ -261,7 +261,81 @@ nav {
   background-color: #000;
   margin: 0 auto;
   border-radius: 100%;
-  padding: 6px;
+  cursor: pointer;
+}
+
+.choice {
+  height: 899px;
+}
+.choice_upper {
+  height: 502px;
+  background-color: #070716;
+  padding-top: 59px;
+}
+.choice_upper_label_white {
+  margin: 0 auto;
+  text-align: center;
+  width: 112px;
+  height: 24px;
+  padding: 5px 12px;
+  color: #070716;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 400;
+  text-transform: uppercase;
+  background-color: #fff;
+}
+.choice_upper_title {
+  padding-top: 27px;
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.choice_upper_subtitle {
+  padding-top: 1px;
+  margin: 0 auto;
+  color: #FFF;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21px;
+}
+.choice_upper_car {
+  padding-top: 54px;
+  margin: 0 auto;
+  width: 759px;
+  height: 480px;
+}
+.choice_bottom {
+  height: 397px;
+  background: url("../img/choice_layer.png") center center/cover no-repeat;
+}
+.choice_bottom_text {
+  margin: 0 auto;
+  color: #222;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  bottom: 147px;
+  padding-top: 209px;
+}
+.choice_bottom_text2 {
+  margin: 0 auto;
+  color: #222;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 300;
+  bottom: 147px;
 }
 
 /*# sourceMappingURL=output.css.map */

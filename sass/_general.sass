@@ -9,15 +9,17 @@ nav
 	padding: 13px 70px 
 	margin: 0 
 	list-style-type: none 
-	.menu_link 
+	&_link 
 		text-decoration: none 
 		color: #FFF 
 		font-size: 15px 
 		font-style: normal 
 		font-weight: 300 
-	.menu_item 
+	&_item 
 		border-right: 2px dotted black 
 		padding-right: 45px 
+		&:last-child
+			border-right: none
 .subheader 
 	position: absolute 
 	width: 100% 

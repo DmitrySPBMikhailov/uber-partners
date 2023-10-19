@@ -721,8 +721,89 @@ nav {
     align-items: flex-start;
   }
   /* line 23, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
-  .reasons_descr {
+  .reasons_block_descr {
     width: 300px;
+  }
+}
+
+@media (max-width: 991px) {
+  /* line 29, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu_item {
+    padding-right: 8px;
+  }
+  /* line 31, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu_link {
+    font-size: 10px;
+  }
+  /* line 35, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .subheader_logo img {
+    width: 100%;
+  }
+  /* line 37, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .subheader_official {
+    font-size: 11px;
+  }
+  /* line 39, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .subheader_phone {
+    font-size: 18px;
+  }
+  /* line 41, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .subheader_btn {
+    margin-top: 21px;
+    height: 40px;
+    width: 100%;
+  }
+  /* line 46, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .promo_header {
+    font-size: 40px;
+  }
+  /* line 48, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .promo_subheader {
+    font-size: 30px;
+  }
+  /* line 51, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons_block {
+    flex-direction: column;
+    align-items: center;
+  }
+  /* line 54, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons_block_descr {
+    margin-top: 20px;
+  }
+  /* line 56, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons h2 {
+    font-size: 33px;
+  }
+}
+
+@media (max-width: 767px) {
+  /* line 60, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu {
+    position: fixed;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: -100%;
+    width: 50%;
+    height: 100vh;
+    padding: 20px 15px;
+    background-color: rgba(0, 0, 0, 0.8);
+    transition: 0.6s all;
+  }
+  /* line 72, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu_active {
+    left: 0;
+  }
+  /* line 74, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu_item {
+    padding-right: 0;
+    border: none;
+    margin: 10px;
+  }
+  /* line 78, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu_link {
+    font-size: 20px;
   }
 }
 

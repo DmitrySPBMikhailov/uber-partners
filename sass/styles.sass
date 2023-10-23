@@ -22,6 +22,17 @@
 			align-items: flex-start
 			&_descr
 				width: 300px
+	.mobile
+		&_item
+			width: 300px
+			&_subtitle
+				font-size: 21px
+	.footer
+		&_middle_row
+			display: block
+			// &_right:
+			// 	&:nth-child(1)
+
 
 
 @media (max-width: 991px)
@@ -53,6 +64,8 @@
 			align-items: center
 			&_descr
 				margin-top: 20px
+			&_round
+				margin-right: 0
 		h2
 			font-size: 33px
 
@@ -126,8 +139,13 @@
 			line-height: 45px
 
 @media (max-width: 575px)
+	nav
+		height: 30px
+	header
+		height: 30px
 	.subheader
 		height: 60px
+		top: 30px
 		&_official
 			display: none
 		&_logo
@@ -141,4 +159,43 @@
 			width: 110px
 			height: 22px
 			font-size: 10px
-			margin-top: 7px
+			margin-top: 6px
+	.promo
+		min-height: 400px
+		padding: 93px 0 35px 0
+		&_descr
+			display: none
+		&_header
+			font-size: 30px
+			padding: 0 24px
+			line-height: 35px
+		&_subheader
+			font-size: 20px
+			margin-top: 33px
+			padding: 0 10px
+			line-height: 30px
+		&_btn
+			width: 210px
+			height: 50px
+			margin-top: 72px
+			font-size: 16px
+	.menu
+		width: 85%
+		&_link
+			font-size: 18px
+	.reasons
+		padding: 22px 0 36px 0
+		h2
+			font-size: 16px
+			margin-top: 15px
+			line-height: 16px
+		&_block
+			margin-top: 26px
+			&_round
+				width: 100px
+				height: 100px
+			&_descr
+				width: 100%
+				margin-top: 27px
+				&_subtitle
+					font-size: 16px

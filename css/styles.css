@@ -11,6 +11,7 @@ nav {
 
 /* line 6, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .menu {
+  z-index: 1;
   display: flex;
   justify-content: space-between;
   padding: 13px 70px;
@@ -18,7 +19,7 @@ nav {
   list-style-type: none;
 }
 
-/* line 12, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 13, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .menu_link {
   text-decoration: none;
   color: #FFF;
@@ -27,23 +28,23 @@ nav {
   font-weight: 300;
 }
 
-/* line 18, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 19, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .menu_item {
   border-right: 2px dotted black;
   padding-right: 45px;
 }
 
-/* line 21, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 22, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .menu_item:last-child {
   border-right: none;
 }
 
-/* line 23, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 24, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .hamburger {
   display: none;
 }
 
-/* line 25, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 26, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .subheader {
   position: absolute;
   width: 100%;
@@ -51,14 +52,14 @@ nav {
   background-color: rgba(0, 0, 0, 0.6);
 }
 
-/* line 30, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 31, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .subheader_logo {
   display: block;
   max-width: 100%;
   margin-top: 16px;
 }
 
-/* line 34, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 35, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .subheader_official {
   margin-top: 6px;
   opacity: 0.5;
@@ -68,7 +69,7 @@ nav {
   font-weight: 100;
 }
 
-/* line 41, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 42, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .subheader_call {
   margin-top: 20px;
   color: #FFF;
@@ -78,7 +79,7 @@ nav {
   font-weight: 300;
 }
 
-/* line 48, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 49, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .subheader_phone {
   display: block;
   margin-top: 8px;
@@ -92,7 +93,7 @@ nav {
   line-height: 12px;
 }
 
-/* line 59, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 60, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .subheader_btn {
   margin-top: 22px;
   width: 172px;
@@ -116,14 +117,14 @@ nav {
   background-color: #1EACC7;
 }
 
-/* line 75, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 76, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .promo {
   min-height: 800px;
   background: url("../img/uber_bg.png") center center/cover no-repeat;
   padding: 150px 0 135px 0;
 }
 
-/* line 79, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 80, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .promo_header {
   color: #FFF;
   text-align: center;
@@ -135,7 +136,7 @@ nav {
   margin: 0;
 }
 
-/* line 88, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 89, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .promo_subheader {
   color: #FFF;
   text-align: center;
@@ -148,7 +149,7 @@ nav {
   margin-top: 22px;
 }
 
-/* line 98, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 99, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .promo_descr {
   color: #FFF;
   text-align: center;
@@ -159,7 +160,7 @@ nav {
   margin-top: 23px;
 }
 
-/* line 106, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 107, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .promo_btn {
   display: block;
   margin: 115px auto 0 auto;
@@ -184,12 +185,12 @@ nav {
   background-color: #1EACC7;
 }
 
-/* line 123, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 124, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .reasons {
   padding: 71px 0 65px 0;
 }
 
-/* line 125, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 126, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .reasons_block {
   display: flex;
   justify-content: center;
@@ -197,7 +198,7 @@ nav {
   margin-top: 35px;
 }
 
-/* line 130, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 131, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .reasons_block_round {
   display: flex;
   justify-content: center;
@@ -209,12 +210,12 @@ nav {
   border-radius: 100%;
 }
 
-/* line 139, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 140, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .reasons_block_descr {
   width: 343px;
 }
 
-/* line 141, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 142, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .reasons_block_descr_subtitle {
   line-height: 21px;
   color: #1EACC7;
@@ -222,7 +223,7 @@ nav {
   font-weight: 400;
 }
 
-/* line 146, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 147, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .reasons_block_descr_text {
   color: #202020;
   font-size: 15px;
@@ -230,7 +231,7 @@ nav {
   line-height: 21px;
 }
 
-/* line 151, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 152, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .label {
   margin: 0 auto;
   height: 24px;
@@ -244,7 +245,7 @@ nav {
   text-align: center;
 }
 
-/* line 163, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 164, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .title {
   margin-bottom: 0;
   margin-top: 38px;
@@ -255,7 +256,7 @@ nav {
   text-align: center;
 }
 
-/* line 172, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 173, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .subtitle {
   margin-top: 19px;
   color: #222;
@@ -265,19 +266,19 @@ nav {
   font-weight: 400;
 }
 
-/* line 180, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 181, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile {
   min-height: 864px;
   padding: 48px 0 80px 0;
   background: url("../img/mobile_bg.png") center center/cover no-repeat;
 }
 
-/* line 184, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 185, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile .row {
   margin-top: 32px;
 }
 
-/* line 186, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 187, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item {
   position: relative;
   width: 320px;
@@ -287,37 +288,37 @@ nav {
   padding-top: 92px;
 }
 
-/* line 193, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 194, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_1 {
   background: url("../icons/mobile/card_1.png") center center/cover no-repeat;
 }
 
-/* line 195, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 196, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_2 {
   background: url("../icons/mobile/card_2.png") center center/cover no-repeat;
 }
 
-/* line 197, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 198, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_3 {
   background: url("../icons/mobile/card_3.png") center center/cover no-repeat;
 }
 
-/* line 199, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 200, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_4 {
   background: url("../icons/mobile/card_4.png") center center/cover no-repeat;
 }
 
-/* line 201, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 202, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_5 {
   background: url("../icons/mobile/card_5.png") center center/cover no-repeat;
 }
 
-/* line 203, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 204, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_6 {
   background: url("../icons/mobile/card_6.png") center center/cover no-repeat;
 }
 
-/* line 205, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 206, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_subtitle {
   color: #FFF;
   text-align: center;
@@ -327,7 +328,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 212, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 213, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_plus {
   display: flex;
   justify-content: center;
@@ -344,7 +345,7 @@ nav {
   cursor: pointer;
 }
 
-/* line 226, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 227, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_plus:before {
   content: '';
   display: block;
@@ -354,7 +355,7 @@ nav {
   transition: 0.3s all;
 }
 
-/* line 233, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 234, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_plus:after {
   content: '';
   position: absolute;
@@ -367,24 +368,24 @@ nav {
   transition: 0.3s all;
 }
 
-/* line 244, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 245, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .mobile_item_plus:hover:before, .mobile_item_plus:hover:after {
   background-color: #FF5656;
 }
 
-/* line 247, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 248, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice {
   height: 899px;
 }
 
-/* line 249, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 250, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_upper {
   height: 502px;
   background-color: #070716;
   padding-top: 59px;
 }
 
-/* line 253, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 254, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_upper_label_white {
   margin: 0 auto;
   text-align: center;
@@ -399,7 +400,7 @@ nav {
   background-color: #fff;
 }
 
-/* line 265, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 266, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_upper_title {
   padding-top: 27px;
   margin: 0 auto;
@@ -411,7 +412,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 274, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 275, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_upper_subtitle {
   padding-top: 1px;
   margin: 0 auto;
@@ -423,7 +424,7 @@ nav {
   line-height: 21px;
 }
 
-/* line 283, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 284, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_upper_car {
   padding-top: 54px;
   margin: 0 auto;
@@ -431,13 +432,13 @@ nav {
   height: 480px;
 }
 
-/* line 289, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 290, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_bottom {
   height: 397px;
   background: url("../img/choice_layer.png") center center/cover no-repeat;
 }
 
-/* line 292, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 293, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_bottom_text {
   margin: 0 auto;
   color: #222;
@@ -450,7 +451,7 @@ nav {
   padding-top: 209px;
 }
 
-/* line 295, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 296, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .choice_bottom_text2 {
   margin: 0 auto;
   color: #222;
@@ -462,36 +463,36 @@ nav {
   bottom: 147px;
 }
 
-/* line 298, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 299, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require {
   padding: 68px 0 84px 0;
 }
 
-/* line 300, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 301, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require_block {
   margin: 33px 0;
 }
 
-/* line 302, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 303, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require_block_nmb {
   margin-bottom: 0px;
 }
 
-/* line 304, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 305, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require_title {
   color: #1CA8C3;
   font-size: 22px;
   font-weight: 400;
 }
 
-/* line 308, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 309, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require_list {
   list-style-type: none;
   padding-left: 50px;
   margin-top: 22px;
 }
 
-/* line 312, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 313, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require_list li {
   position: relative;
   color: #222;
@@ -500,7 +501,7 @@ nav {
   margin-bottom: 10px;
 }
 
-/* line 318, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 319, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require_list li:before {
   content: "";
   display: block;
@@ -512,7 +513,7 @@ nav {
   background: url("../icons/require/check_blue.png") center center/cover no-repeat;
 }
 
-/* line 327, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 328, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require_descr {
   color: #1CA8C3;
   font-size: 17px;
@@ -520,33 +521,33 @@ nav {
   line-height: 24px;
 }
 
-/* line 333, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 334, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require .warning .require_title {
   color: #FF5656;
 }
 
-/* line 337, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 338, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .require .warning .require_list li:before {
   background: url("../icons/require/check_red.png") center center/cover no-repeat;
 }
 
-/* line 340, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 341, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world {
   min-height: 720px;
   background-color: #080816;
 }
 
-/* line 343, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 344, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world_wrapper {
   background: url("../img/world_bg.png") center center/cover no-repeat;
 }
 
-/* line 345, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 346, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world_content {
   padding: 48px 0 22px 0;
 }
 
-/* line 347, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 348, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world_label {
   width: 75px;
   height: 25px;
@@ -561,7 +562,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 359, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 360, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world_title {
   padding-top: 26px;
   color: #FFF;
@@ -572,7 +573,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 367, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 368, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world_subtitle {
   color: #FFF;
   text-align: center;
@@ -581,13 +582,13 @@ nav {
   font-weight: 400;
 }
 
-/* line 373, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 374, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world_link_wrapper {
   padding-top: 460px;
   margin: 0 auto;
 }
 
-/* line 376, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 377, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .world_link {
   display: block;
   margin: 0 auto;
@@ -600,12 +601,12 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 387, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 388, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer {
   padding: 12px 22px 37px 22px;
 }
 
-/* line 390, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 391, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_upper_row_line {
   margin: 0 auto;
   width: 301px;
@@ -613,14 +614,14 @@ nav {
   background-color: #1FBAD6;
 }
 
-/* line 395, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 396, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row {
   display: flex;
   justify-content: space-between;
   margin-top: 30px;
 }
 
-/* line 399, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 400, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_right {
   width: 296px;
   display: flex;
@@ -628,7 +629,7 @@ nav {
   height: 35px;
 }
 
-/* line 404, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 405, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_right_round {
   background-color: #070716;
   border-radius: 100%;
@@ -639,18 +640,18 @@ nav {
   margin-right: 6px;
 }
 
-/* line 413, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 414, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_center {
   width: 400px;
 }
 
-/* line 415, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 416, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_center_up {
   display: flex;
   justify-content: space-around;
 }
 
-/* line 418, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 419, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_center_up_link {
   display: inline-block;
   color: #070716;
@@ -660,14 +661,14 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 425, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 426, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_center_down {
   display: flex;
   justify-content: space-between;
   margin-top: 14px;
 }
 
-/* line 429, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 430, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_center_down_link {
   display: inline-block;
   color: #999;
@@ -678,22 +679,22 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 437, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 438, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_left {
   width: 296px;
 }
 
-/* line 439, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 440, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_left_link {
   width: 94px;
 }
 
-/* line 441, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 442, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_bottom_row {
   margin-top: 16px;
 }
 
-/* line 443, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 444, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_bottom_row_lang {
   color: #1FBAD6;
   text-align: center;
@@ -703,7 +704,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 452, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 453, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .xs-visible {
   display: none;
 }
@@ -734,60 +735,76 @@ nav {
   .reasons_block_descr {
     width: 300px;
   }
+  /* line 26, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .mobile_item {
+    width: 300px;
+  }
+  /* line 28, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .mobile_item_subtitle {
+    font-size: 21px;
+  }
+  /* line 31, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row {
+    display: block;
+  }
 }
 
 @media (max-width: 991px) {
-  /* line 29, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 40, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .menu_item {
     padding-right: 8px;
   }
-  /* line 31, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 42, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .menu_link {
     font-size: 10px;
   }
-  /* line 35, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 46, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_logo img {
     width: 100%;
   }
-  /* line 37, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 48, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_official {
     font-size: 11px;
   }
-  /* line 39, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 50, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_phone {
     font-size: 18px;
   }
-  /* line 41, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 52, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_btn {
     margin-top: 21px;
     height: 40px;
     width: 100%;
   }
-  /* line 46, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 57, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .promo_header {
     font-size: 40px;
   }
-  /* line 48, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 59, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .promo_subheader {
     font-size: 30px;
   }
-  /* line 51, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 62, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .reasons_block {
     flex-direction: column;
     align-items: center;
   }
-  /* line 54, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 65, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .reasons_block_descr {
     margin-top: 20px;
   }
-  /* line 56, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 67, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons_block_round {
+    margin-right: 0;
+  }
+  /* line 69, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .reasons h2 {
     font-size: 33px;
   }
 }
 
 @media (max-width: 767px) {
-  /* line 60, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 73, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .menu {
     position: fixed;
     flex-direction: column;
@@ -801,21 +818,21 @@ nav {
     background-color: rgba(0, 0, 0, 0.8);
     transition: 0.6s all;
   }
-  /* line 72, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 85, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .menu_active {
     left: 0;
   }
-  /* line 74, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 87, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .menu_item {
     padding-right: 0;
     border: none;
     margin: 10px;
   }
-  /* line 78, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 91, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .menu_link {
     font-size: 20px;
   }
-  /* line 80, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 93, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .hamburger {
     display: block;
     position: absolute;
@@ -825,7 +842,7 @@ nav {
     width: 26px;
     height: 12px;
   }
-  /* line 88, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 101, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .hamburger span {
     display: block;
     height: 2px;
@@ -834,31 +851,31 @@ nav {
     margin-bottom: 2px;
     transition: 0.5s all;
   }
-  /* line 96, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 109, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .hamburger_active span {
     margin-bottom: -2px;
   }
-  /* line 98, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 111, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .hamburger_active span:nth-child(1) {
     transform: translateY(3px) rotate(-45deg);
   }
-  /* line 100, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 113, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .hamburger_active span:nth-child(2) {
     display: none;
   }
-  /* line 102, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 115, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .hamburger_active span:nth-child(3) {
     transform: translateY(3px) rotate(45deg);
   }
-  /* line 105, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 118, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .xs-hidden {
     display: none;
   }
-  /* line 107, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 120, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .xs-visible {
     display: block;
   }
-  /* line 110, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 123, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_phone {
     display: block;
     margin-top: 10px;
@@ -868,7 +885,7 @@ nav {
     text-transform: uppercase;
     text-align: center;
   }
-  /* line 118, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 131, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_btn {
     display: block;
     width: 200px;
@@ -876,38 +893,112 @@ nav {
     margin: 0 auto;
     margin-top: 10px;
   }
-  /* line 125, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 138, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .promo_header {
     line-height: 45px;
   }
 }
 
 @media (max-width: 575px) {
-  /* line 129, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 142, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  nav {
+    height: 30px;
+  }
+  /* line 144, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  header {
+    height: 30px;
+  }
+  /* line 146, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader {
     height: 60px;
+    top: 30px;
   }
-  /* line 131, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 149, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_official {
     display: none;
   }
-  /* line 133, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 151, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_logo {
     margin-top: 16px;
   }
-  /* line 135, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 153, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_phone {
     font-size: 12px;
     font-weight: 400;
     text-transform: uppercase;
     margin-top: 11px;
   }
-  /* line 140, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 158, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .subheader_btn {
     width: 110px;
     height: 22px;
     font-size: 10px;
-    margin-top: 7px;
+    margin-top: 6px;
+  }
+  /* line 163, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .promo {
+    min-height: 400px;
+    padding: 93px 0 35px 0;
+  }
+  /* line 166, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .promo_descr {
+    display: none;
+  }
+  /* line 168, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .promo_header {
+    font-size: 30px;
+    padding: 0 24px;
+    line-height: 35px;
+  }
+  /* line 172, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .promo_subheader {
+    font-size: 20px;
+    margin-top: 33px;
+    padding: 0 10px;
+    line-height: 30px;
+  }
+  /* line 177, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .promo_btn {
+    width: 210px;
+    height: 50px;
+    margin-top: 72px;
+    font-size: 16px;
+  }
+  /* line 182, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu {
+    width: 85%;
+  }
+  /* line 184, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .menu_link {
+    font-size: 18px;
+  }
+  /* line 186, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons {
+    padding: 22px 0 36px 0;
+  }
+  /* line 188, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons h2 {
+    font-size: 16px;
+    margin-top: 15px;
+    line-height: 16px;
+  }
+  /* line 192, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons_block {
+    margin-top: 26px;
+  }
+  /* line 194, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons_block_round {
+    width: 100px;
+    height: 100px;
+  }
+  /* line 197, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons_block_descr {
+    width: 100%;
+    margin-top: 27px;
+  }
+  /* line 200, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .reasons_block_descr_subtitle {
+    font-size: 16px;
   }
 }
 

@@ -234,7 +234,7 @@
 					font-size: 16px
 
 	.choice
-		height: 393px
+		height: 593px
 		position: relative
 		&_upper
 			height: 100%
@@ -249,21 +249,85 @@
 					margin: 0 auto
 		&_bottom
 			position: absolute
-			width: 279px
+			width: 100%
 			height: 64px
-			top: 50px
+			top: 420px
+			background: none
 			&_text
 				padding-top: 0px
 				color: #FFF
 				text-align: center
-				font-size: 17px
+				font-size: 30px
 				font-style: normal
 				font-weight: 300
 				line-height: 24px
 			&_text2
 				color: #FFF
 				text-align: center
-				font-size: 17px
+				font-size: 30px
 				font-style: normal
 				font-weight: 300
-				line-height: 24px
+				line-height: 36px
+				padding-top: 15px
+	.require
+		padding: 16px 0 12px 0
+		.title
+			color: #222
+			text-align: center
+			font-size: 16px
+			font-style: normal
+			font-weight: 700
+			line-height: 16px
+			text-transform: uppercase
+			margin-top: 14px
+		&_block
+			margin: 22px 0
+
+	.world
+		min-height: 360px
+		&_wrapper
+			background: url('../img/world_bg.png') 50% center/cover no-repeat 
+		&_link
+			font-size: 25px
+			padding-bottom: 10px
+		&_title
+			color: #FFF
+			text-align: center
+			font-size: 16px
+			font-weight: 700
+			text-transform: uppercase
+		&_subtitle
+			color: #FFF
+			text-align: center
+			font-size: 14px
+			line-height: 21px
+
+	.footer
+		&_upper_row
+			&_line
+				width: 90%
+		&_middle_row
+			&_center
+				width: 100%
+				&_up
+					&_link
+						font-size: 12px
+				&_down
+					display: none
+					&_link
+						display: block
+				&_mobile_down
+					display: block
+					margin: 0 auto
+					width: 70%
+					padding-top: 10px
+					&_link
+						display: inline-block
+						font-size: 13px
+					&_first
+						padding-bottom: 6px
+			&_left
+				width: 100%
+				&_link
+					width: 30%
+

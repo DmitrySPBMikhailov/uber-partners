@@ -680,26 +680,31 @@ nav {
 }
 
 /* line 438, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+.footer_middle_row_center_mobile_down {
+  display: none;
+}
+
+/* line 440, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_left {
   width: 296px;
 }
 
-/* line 440, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 442, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_middle_row_left_link {
   width: 94px;
 }
 
-/* line 442, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 444, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_mobile_row {
   display: none;
 }
 
-/* line 444, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 446, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_bottom_row {
   margin-top: 16px;
 }
 
-/* line 446, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 448, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .footer_bottom_row_lang {
   color: #1FBAD6;
   text-align: center;
@@ -709,7 +714,7 @@ nav {
   text-transform: uppercase;
 }
 
-/* line 455, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
+/* line 457, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/_general.sass */
 .xs-visible {
   display: none;
 }
@@ -1054,7 +1059,7 @@ nav {
   }
   /* line 236, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .choice {
-    height: 393px;
+    height: 593px;
     position: relative;
   }
   /* line 239, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
@@ -1078,28 +1083,121 @@ nav {
   /* line 250, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .choice_bottom {
     position: absolute;
-    width: 279px;
+    width: 100%;
     height: 64px;
-    top: 50px;
+    top: 420px;
+    background: none;
   }
-  /* line 255, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 256, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .choice_bottom_text {
     padding-top: 0px;
     color: #FFF;
     text-align: center;
-    font-size: 17px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 300;
     line-height: 24px;
   }
-  /* line 263, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  /* line 264, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
   .choice_bottom_text2 {
     color: #FFF;
     text-align: center;
-    font-size: 17px;
+    font-size: 30px;
     font-style: normal;
     font-weight: 300;
-    line-height: 24px;
+    line-height: 36px;
+    padding-top: 15px;
+  }
+  /* line 272, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .require {
+    padding: 16px 0 12px 0;
+  }
+  /* line 274, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .require .title {
+    color: #222;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
+    margin-top: 14px;
+  }
+  /* line 283, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .require_block {
+    margin: 22px 0;
+  }
+  /* line 286, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .world {
+    min-height: 360px;
+  }
+  /* line 288, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .world_wrapper {
+    background: url("../img/world_bg.png") 50% center/cover no-repeat;
+  }
+  /* line 290, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .world_link {
+    font-size: 25px;
+    padding-bottom: 10px;
+  }
+  /* line 293, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .world_title {
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  /* line 299, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .world_subtitle {
+    color: #FFF;
+    text-align: center;
+    font-size: 14px;
+    line-height: 21px;
+  }
+  /* line 307, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_upper_row_line {
+    width: 90%;
+  }
+  /* line 310, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_center {
+    width: 100%;
+  }
+  /* line 313, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_center_up_link {
+    font-size: 12px;
+  }
+  /* line 315, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_center_down {
+    display: none;
+  }
+  /* line 317, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_center_down_link {
+    display: block;
+  }
+  /* line 319, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_center_mobile_down {
+    display: block;
+    margin: 0 auto;
+    width: 70%;
+    padding-top: 10px;
+  }
+  /* line 324, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_center_mobile_down_link {
+    display: inline-block;
+    font-size: 13px;
+  }
+  /* line 327, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_center_mobile_down_first {
+    padding-bottom: 6px;
+  }
+  /* line 329, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_left {
+    width: 100%;
+  }
+  /* line 331, ../../../../../Users/etalon/Desktop/web_dev/lesson_26/src/sass/styles.sass */
+  .footer_middle_row_left_link {
+    width: 30%;
   }
 }
 
